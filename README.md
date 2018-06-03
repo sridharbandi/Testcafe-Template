@@ -13,4 +13,11 @@ To run the tests issue the below command
 ```javascript
 npm test chrome tests
 ``` 
+For complete list of browsers supported by Testcafe refer this [link](https://devexpress.github.io/testcafe/documentation/using-testcafe/common-concepts/browsers/browser-support.html)
+
+You can specify locally installed browsers using browser aliases or paths (with the path: prefix)
+```javascript
+npm test  'path:`C:\Program Files (x86)\Firefox Portable\firefox.exe`' tests
+```
+
 > Feel free to modify it to your own needs :)
