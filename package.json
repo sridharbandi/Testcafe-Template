@@ -1,0 +1,14 @@
+{
+  "name": "com.tech.testcafe",
+  "version": "1.0.0",
+  "description": "Testcasfe Example Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/testcafe"
+  },
+  "author": "Sridhar Bandi",
+  "license": "MIT",
+  "devDependencies": {
+    "testcafe": "^0.20.2"
+  }
+}
