@@ -15,5 +15,5 @@ test('Verify Title', async t => {
 test('Google Search', async t => {
     await googlesearchpage.searchFor('Selenium')
     const seleniumText = await searchresultspage.getSeleniumText()
-    await t.expect(seleniumText).eql('Selenium - Web Browser Automation')
+    await t.expect(seleniumText).contains('Selenium')
 });
