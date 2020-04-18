@@ -2,7 +2,7 @@ import { Selector, t } from 'testcafe';
 
 export default class GoogleSearchPage {
 
-    get searchbox() {return '#lst-ib';}
+    get searchbox() {return 'input[name="q"]';}
 
     constructor() {
     }

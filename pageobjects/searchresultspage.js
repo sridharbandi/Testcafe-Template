@@ -2,7 +2,7 @@ import { Selector, t } from 'testcafe';
 
 export default class SearchResultsPage {
 
-    get linkselenium() {return 'a[href=\'https://www.seleniumhq.org/\']';}
+    get linkselenium() {return 'a[href=\'https://www.selenium.dev/\']';}
 
     constructor() {
     }
